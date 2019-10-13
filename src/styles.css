@@ -1,0 +1,10 @@
+body {
+  background-color: darkgray;
+}
+
+.paper {
+  background-color: #fdfdfd;
+  width: 8.5in;
+  height: 11in;
+  padding: 0.5in 0.75in 0.1in 0.75in;
+}

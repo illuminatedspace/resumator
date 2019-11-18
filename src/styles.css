@@ -2,9 +2,105 @@ body {
   background-color: darkgray;
 }
 
-.paper {
+#paper {
   background-color: #fdfdfd;
   width: 8.5in;
   height: 11in;
   padding: 0.5in 0.75in 0.1in 0.75in;
+}
+
+#header {
+  border: 0.2rem dashed red;
+  padding-bottom: 2rem;
+}
+#title {
+  background-color: orangered;
+
+  display: flex;
+  justify-content: center;
+}
+#contact {
+  background-color: orange;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact span {
+}
+
+#bars {
+  border: 0.2rem dashed black;
+  display: flex;
+}
+
+#main-bar {
+  border: 0.2rem dashed lightseagreen;
+  order: 1;
+  flex-grow: 2;
+  padding-right: 2rem;
+}
+#experience {
+  background-color: blueviolet;
+}
+#projects {
+  background-color: violet;
+}
+#accolades-and-speaking {
+  background-color: palevioletred;
+}
+
+#sidebar {
+  border: 0.2rem dashed green;
+  order: 2;
+  flex-grow: 1;
+}
+#skills {
+  background-color: turquoise;
+}
+#education {
+  background-color: greenyellow;
+}
+#interests {
+  background-color: yellowgreen;
+}
+
+/*CLASS HELPERS*/
+.sub-section {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+p {
+  font-family: "Roboto Condensed", sans-serif;
+
+  font-size: 1rem;
 }

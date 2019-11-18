@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/illuminatedspace/resume-creator/issues"
   },
-  "homepage": "https://github.com/illuminatedspace/resume-creator#readme"
+  "homepage": "https://github.com/illuminatedspace/resume-creator#readme",
+  "dependencies": {}
 }

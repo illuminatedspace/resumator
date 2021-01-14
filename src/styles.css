@@ -52,6 +52,11 @@ body {
   max-width: 30%;
 }
 
+#skills li {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 /*CLASS HELPERS*/
 .section {
   margin-bottom: 1rem;
@@ -90,7 +95,7 @@ h2 {
 h3 {
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.2rem;
 }
 
 h4 {
